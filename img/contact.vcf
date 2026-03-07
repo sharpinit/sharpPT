@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Nicole Sharp
+N:Sharp;Nicole;;;
+item1.EMAIL;TYPE=INTERNET:nicole@sharpPT.com
+item1.X-ABLabel:
+item2.TEL:(208) 410-4071
+item2.X-ABLabel:
+ORG:Sharp Physical Therapy & Performance
+TITLE:PT\, DPT
+item3.URL:www.sharppt.com
+item3.X-ABLabel:
+CATEGORIES:myContacts
+END:VCARD
