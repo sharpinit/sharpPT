@@ -6,10 +6,10 @@
 /* ── DESIGN TOKENS ── */
 :root {
   /* Brand */
-  --purple:       #2e1a47;
-  --purple-deep:  #1e1030;
+  --purple:       #331C54;
+  --purple-deep:  #170d26;
   --purple-mid:   #3d2560;
-  --teal:         #32c2d9;   /* 4.6:1 on purple ✓ large text */
+  --teal:         #00C6D7;   /* 4.6:1 on purple ✓ large text */
   --teal-dark:    #157a91;   /* 4.7:1 on white ✓ */
   --teal-light:   #d4f3f8;
 
