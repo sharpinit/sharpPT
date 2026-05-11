@@ -492,7 +492,6 @@ nav.scrolled { box-shadow: 0 4px 24px rgba(46,26,71,0.4); }
   display: flex; flex-direction: column;
   transition: background 0.25s;
 }
-.service-card:hover,
 .service-card.featured { background: var(--purple-mid); }
 
 .service-badge {
@@ -502,9 +501,7 @@ nav.scrolled { box-shadow: 0 4px 24px rgba(46,26,71,0.4); }
   background: rgba(50,194,217,0.18); color: var(--teal);
   padding: 0.56rem 1.28rem; border-radius: 2px; align-self: flex-start;
 }
-.service-card.featured .service-badge {
-  background: var(--teal); color: var(--purple);
-}
+
 .service-price {
   font-family: var(--font-head); font-weight: 800; font-size: var(--text-lg);
   color: var(--on-dark-primary); line-height: 1; margin-bottom: 0.32rem;
