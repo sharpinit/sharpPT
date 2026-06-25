@@ -865,6 +865,13 @@ footer { background: var(--purple-deep); }
   .contact-method-sub, .not-for-list li, .who-quote {
     max-width: 100%;
   }
+  nav {
+    position: relative;   /* was fixed — now scrolls with the page */
+  }
+
+  #hero {
+    padding-top: 0;       /* remove the offset that compensated for the fixed nav */
+  }
 }
 /* Screen-reader only utility (WCAG 1.3.1) */
 .sr-only {
