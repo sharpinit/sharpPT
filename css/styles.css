@@ -818,7 +818,13 @@ footer { background: var(--purple-deep); }
     opacity: 0; pointer-events: none;
     transition: max-height 0.35s ease, opacity 0.25s ease;
   }
-  .nav-links.is-open { max-height: 400px; opacity: 1; pointer-events: auto; }
+  .nav-links.is-open {
+  max-height: calc(100vh - 72px);  /* viewport minus nav height */
+  opacity: 1;
+  pointer-events: auto;
+  overflow-y: auto;                /* allow scrolling when it overflows */
+  -webkit-overflow-scrolling: touch;
+  }
   .nav-links li { border-bottom: 1px solid rgba(255,255,255,0.07); }
   .nav-links li:last-child { border-bottom: none; }
   .nav-links a { display: block; padding: 1.2rem 0; font-size: var(--text-sm); }
